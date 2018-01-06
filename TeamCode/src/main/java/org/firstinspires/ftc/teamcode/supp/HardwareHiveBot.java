@@ -27,13 +27,8 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class HardwareHiveBot {
     /* Public OpMode members. */
 
-    public DcMotor leftMotor = null;
-    public DcMotor rightMotor = null;
     public DcMotor armMotor1 = null;
     public DcMotor armMotor2 = null;
-
-
-
 
 
     // Drives
@@ -42,12 +37,12 @@ public class HardwareHiveBot {
 
     //Shooter
     public Servo shooterServo = null;
-    public DcMotor shootMotor_1 = null;
-    public DcMotor shootMotor_2 = null;
-    public Servo gripperServo_1 = null;
+    //public DcMotor shootMotor_1 = null;
+    //public DcMotor shootMotor_2 = null;
+    //public Servo gripperServo_1 = null;
 
     public DcMotor forkliftMotor = null;
-    */
+
 
     /* local OpMode members. */
     HardwareMap hwMap = null;
@@ -73,8 +68,8 @@ public class HardwareHiveBot {
 
          // Shooter
         shooterServo = hwMap.servo.get("shooter_servo"); //Name
-        shootMotor_1 = hwMap.dcMotor.get("shootMotor1"); //Name
-        shootMotor_2 = hwMap.dcMotor.get("shootMotor2"); //Name*/
+        //shootMotor_1 = hwMap.dcMotor.get("shootMotor1"); //Name
+        //shootMotor_2 = hwMap.dcMotor.get("shootMotor2"); //Name*/
       // forkliftMotor = hwMap.dcMotor.get("forkliftMotor");
 
         /*
